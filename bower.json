@@ -1,0 +1,19 @@
+{
+  "name": "radial",
+  "version": "0.0.0",
+  "authors": [
+    "onetw012 <lukashenko.a.one@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "almond": "~0.3.1",
+    "bootstrap": "~3.3.4"
+  }
+}

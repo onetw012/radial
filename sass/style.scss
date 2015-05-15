@@ -1,0 +1,31 @@
+@import '../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap';
+$b: #42eeef;
+$c: #fff;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	color: $b;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	background:transparent url('../bg.jpg') center top no-repeat;
+	background-size: cover;
+}
+
+.snap {
+	width: 400px;
+	height: 300px;
+	position: relative;
+	margin: 5px;
+	background-color: white;
+	border: 1px solid #000;
+}
+
+svg {
+	cursor: pointer;
+}
+
